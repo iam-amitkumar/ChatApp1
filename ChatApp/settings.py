@@ -1,3 +1,4 @@
+
 """
 Django settings for ChatApp project.
 
@@ -25,7 +26,7 @@ SECRET_KEY = '#nv&7=my(8drxahj9-1-_rdmvy8n)$#cdzg0ty1$-aa=unw+$4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['13.233.161.88']
 
 
 # Application definition
@@ -82,9 +83,16 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ChatApp',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PASSWORD': 'AmitKumar',
+        'HOST': 'mysql.cuvrphy3uct5.ap-south-1.rds.amazonaws.com',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': 'mydb',
+        #'USER': 'root',
+        #'PASSWORD': 'AmitKumar',
+        #'HOST': 'mysql.cuvrphy3uct5.ap-south-1.rds.amazonaws.com',   # Or an IP Address that your DB is hosted on
+        #'PORT': '3306',
+
     }
 }
 
